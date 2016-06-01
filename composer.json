@@ -1,0 +1,44 @@
+{
+    "name": "cjtterabytesoft/yii2-adminlte-advanced",
+    "description": "Theme: Almsaeedstudio / AdminLTE - Yii2 Advanced Application Template..",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","yii2-themes", "yii2-app-advanced", "AdminLTE"],
+    "license": "Apache License v. 2.0.",
+    "authors": [
+        {
+            "name": "Wilmer Arambula",
+            "email": "cjtterabytellc@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.6",
+        "yiisoft/yii2-bootstrap": "*",
+        "almasaeed2010/adminlte": ">2.3.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "bower-asset/Font-Awesome": "*",
+        "bower-asset/ionicons": "*",
+        "bower-asset/bootbox": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "cjtterabytesoft\\adminlte\\advanced\\": ""
+        }
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "bootstrap": "cjtterabytesoft\\adminlte\\advanced\\Bootstrap",
+        "branch-alias": {
+          "dev-master": "0.0.1-dev"
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
