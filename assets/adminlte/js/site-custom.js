@@ -9,7 +9,7 @@
  * @author Wilmer Arámbula <cjtterabytellc@gmail.com>.
  * @copyright (c) 2015 Cjt Terabyte LLC.
  * @Extension: [yii2-adminlte-advanced].
- * @JS [Backend - Custom].
+ * @JS [Site - Custom].
  * @since 1.0
  */
 

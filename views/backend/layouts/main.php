@@ -19,7 +19,7 @@ use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use cjtterabytesoft\adminlte\advanced\widgets\Alert;
 use cjtterabytesoft\adminlte\advanced\assets\AdminLTE\AdminLTEAsset;
-use cjtterabytesoft\adminlte\advanced\assets\backend\AppAssetAdminLTE;
+use cjtterabytesoft\adminlte\advanced\assets\adminlte\AppAssetAdminLTE;
 
 /* @var $this \yii\web\View */
 /* @var $content string */

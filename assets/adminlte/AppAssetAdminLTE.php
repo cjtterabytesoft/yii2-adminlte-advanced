@@ -11,17 +11,17 @@
  * @author Wilmer Arámbula <cjtterabytellc@gmail.com>.
  * @copyright (c) 2015 Cjt Terabyte LLC.
  * @Extension: [yii2-adminlte-advanced].
- * @Configuration Assets [Backend - AppAssetAdminLTE].
+ * @Configuration Assets [AppAssetAdminLTE].
  * @since 1.0
  */
 
-namespace cjtterabytesoft\adminlte\advanced\assets\backend;
+namespace cjtterabytesoft\adminlte\advanced\assets\adminlte;
 
 use yii\web\AssetBundle;
 
 class AppAssetAdminLTE extends AssetBundle
 {
-    public $sourcePath = '@cjtterabytesoft/adminlte/advanced/assets/backend/';
+    public $sourcePath = '@cjtterabytesoft/adminlte/advanced/assets/adminlte/';
 
     public $css = [
         'css/site-adminlte.css',

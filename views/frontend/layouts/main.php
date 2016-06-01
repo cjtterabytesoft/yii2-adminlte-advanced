@@ -18,8 +18,8 @@
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use cjtterabytesoft\adminlte\advanced\widgets\Alert;
-use cjtterabytesoft\adminlte\advanced\assets\AdminLTE\AdminLTEAsset;
-use cjtterabytesoft\adminlte\advanced\assets\frontend\AppAssetAdminLTE;
+use cjtterabytesoft\adminlte\advanced\assets\adminlte\AdminLTEAsset;
+use cjtterabytesoft\adminlte\advanced\assets\adminlte\AppAssetAdminLTE;
 
 
 /* @var $this \yii\web\View */
