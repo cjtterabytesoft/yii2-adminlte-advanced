@@ -1,0 +1,2422 @@
+/*
+ * This file is part of the Cjt Terabyte LLC [yii2-extension].
+ *
+ * (c) Cjt Terabyte LLC [yii2-extension] <http://github.com/cjtterabytesoft>.
+ * For the full copyright and license information, please view the LICENSE.md.
+ * file that was distributed with this source code.
+ *
+ * @link http://www.cjtterabyte.com.
+ * @author Wilmer Arámbula <cjtterabytellc@gmail.com>.
+ * @copyright (c) 2015 Cjt Terabyte LLC.
+ * @Extension: [yii2-adminlte-advanced].
+ * @CSS [Backend - Custom].
+ * @since 1.0
+ */
+
+/**********************************************************************************************************************/
+/* SITE CSS                                                                                                           */
+/**********************************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* JUMBOTROM CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/**********************************************************************************************************************/
+/* SKIN-BLACK                                                                                                         */
+/**********************************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* BREADCRUMB CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black .breadcrumb {
+    background-color: #fff;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    list-style: none;
+    padding: 4px 15px;
+}
+.skin-black .breadcrumb li a {
+    color: darkgray;
+}
+.skin-black .breadcrumb > .active  {
+    color: #111111;
+}
+.skin-black .breadcrumb > li + li:before {
+    color: darkgray;
+    content: "/\00a0";
+    padding: 0 5px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black .main-footer{
+    background-color: #fff;
+    padding: 0;
+}
+.skin-black .main-footer .footer-adminlte {
+    border-top: 1px solid #ddd;
+    color: #111111;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+.skin-black .main-footer .footer-adminlte label {
+    padding: 5px;
+}
+.skin-black .main-footer .footer-adminlte .pull-left-custom {
+    float: left !important;
+    padding: 5px;
+}
+.skin-black .main-footer .footer-adminlte .pull-left-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+.skin-black .main-footer .footer-adminlte .pull-right-custom {
+    float: right !important;
+    padding: 5px;
+}
+.skin-black .main-footer .footer-adminlte .pull-right-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FORM-BOX CUSTOM                                                                                                    */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black .form-box {
+    background-color: #fff;
+    border: 1px solid #111111;
+    border-radius: 4px 4px 4px 4px;
+    margin: 90px auto 0 auto;
+}
+.skin-black .form-box .body {
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-black .form-box .footer {
+    background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: black;
+    padding: 10px 20px;
+}
+.skin-black .form-box .footer .text-footer-login {
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.skin-black .form-box .header {
+    background-color: #111111;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 1px 10px 10px;
+    text-align: center;
+}
+.skin-black .form-box .header .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skin-black .form-box .body > .form-group,
+.skin-black .form-box .footer > .form-group {
+    margin-top: 20px;
+}
+.skin-black .form-box .body > .form-group > input,
+.skin-black .form-box .footer > .form-group > input {
+    border: #fff;
+}
+.skin-black .form-box .body > .btn,
+.skin-black .form-box .footer > .btn {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* LOGO MENU CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black .main-header .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black .main-header > .navbar .navbar-header {
+    background-color: #fff;
+}
+.skin-black .main-header > .navbar .navbar-nav > li > a {
+    color: darkgray;
+}
+.skin-black .main-header > .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #111111;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-BRAND CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black .main-header .navbar .navbar-brand .panel-title-custom {
+    color: #111111;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-RIGHT CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black .main-header .navbar .navbar-right {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SIDEBAR HEADER CUSTOM                                                                                              */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black .sidebar > .sidebar-menu > li.header {
+    background: #1a2226;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* TREEVIEW CUSTOM SIDEBAR                                                                                            */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black .treeview-menu > li > a {
+    color: #8aa4af;
+    padding-left: 30px;
+}
+.skin-black .treeview-menu > li.active > a,
+.skin-black .treeview-menu > li > a:hover {
+    color: darkgray;
+    padding-left: 30px;
+}
+
+/**********************************************************************************************************************/
+/* SKIN-BLACK-LIGHT                                                                                                   */
+/**********************************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* BREADCRUMB CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black-light .breadcrumb {
+    background-color: #fff;
+    border: 1px solid #111111;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    list-style: none;
+    padding: 4px 15px;
+}
+.skin-black-light .breadcrumb li a {
+    color: darkgray;
+}
+.skin-black-light .breadcrumb > .active  {
+    color: #111111;
+}
+.skin-black-light .breadcrumb > li + li:before {
+    color: darkgray;
+    content: "/\00a0";
+    padding: 0 5px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black-light .main-footer{
+    background-color: #fff;
+    padding: 0;
+}
+.skin-black-light .main-footer .footer-adminlte {
+    border-top: 1px solid #ddd;
+    color: #111111;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+.skin-black-light .main-footer .footer-adminlte label {
+    padding: 5px;
+}
+.skin-black-light .main-footer .footer-adminlte .pull-left-custom {
+    float: left !important;
+    padding: 5px;
+}
+.skin-black-light .main-footer .footer-adminlte .pull-left-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+.skin-black-light .main-footer .footer-adminlte .pull-right-custom {
+    float: right !important;
+    padding: 5px;
+}
+.skin-black-light .main-footer .footer-adminlte .pull-right-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FORM-BOX CUSTOM                                                                                                    */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black-light .form-box {
+    background-color: #fff;
+    border: 1px solid #111111;
+    border-radius: 4px 4px 4px 4px;
+    margin: 90px auto 0 auto;
+}
+.skin-black-light .form-box .body {
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-black-light .form-box .footer {
+    background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: black;
+    padding: 10px 20px;
+}
+.skin-black-light .form-box .footer .text-footer-login {
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.skin-black-light .form-box .header {
+    background-color: transparent;
+    color: transparent;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 1px 10px 10px;
+    text-align: center;
+}
+.skin-black-light .form-box .header .panel-title-custom {
+    color: #111111;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skin-black-light .form-box .body > .form-group,
+.skin-black-light .form-box .footer > .form-group {
+    margin-top: 20px;
+}
+.skin-black-light .form-box .body > .form-group > input,
+.skin-black-light .form-box .footer > .form-group > input {
+    border: #fff;
+}
+.skin-black-light .form-box .body > .btn,
+.skin-black-light .form-box .footer > .btn {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* LOGO MENU CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black-light .main-header .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black-light .main-header > .navbar .navbar-header {
+    background-color: #fff;
+}
+.skin-black-light .main-header > .navbar .navbar-nav > li > a {
+    color: darkgray;
+}
+.skin-black-light .main-header > .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #111111;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-BRAND CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black-light .main-header .navbar .navbar-brand .panel-title-custom {
+    color: #111111;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-RIGHT CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black-light .main-header .navbar .navbar-right {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SIDEBAR HEADER CUSTOM                                                                                              */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black-light .sidebar-menu > li.active > a {
+    border-left-color: #111111;
+}
+.skin-black-light .sidebar > .sidebar-menu > li.header {
+    background: #f9fafc;
+    color: #111111;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* TREEVIEW CUSTOM SIDEBAR                                                                                            */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-black-light .treeview-menu > li > a {
+    color: #8aa4af;
+    padding-left: 30px;
+}
+.skin-black-light .treeview-menu > li.active > a,
+.skin-black-light .treeview-menu > li > a:hover {
+    color: darkgray;
+    padding-left: 30px;
+}
+
+/**********************************************************************************************************************/
+/* SKIN-BLUE                                                                                                          */
+/**********************************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* BREADCRUMB CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue .breadcrumb {
+    background-color: #367fa9;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    list-style: none;
+    padding: 4px 15px;
+}
+.skin-blue .breadcrumb li a {
+    color: lightgray;
+}
+.skin-blue .breadcrumb > .active  {
+    color: #fff;
+}
+.skin-blue .breadcrumb > li + li:before {
+    color: lightgray;
+    content: "/\00a0";
+    padding: 0 5px;
+;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue .main-footer{
+    background-color: #3c8dbc;
+    padding: 0;
+}
+.skin-blue .main-footer .footer-adminlte {
+    border-top: 1px solid #367fa9;
+    color: #fff;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+.skin-blue .main-footer .footer-adminlte .a{
+    color: #111111;
+}
+.skin-blue .main-footer .footer-adminlte label {
+    padding: 5px;
+}
+.skin-blue .main-footer .footer-adminlte .pull-left-custom {
+    float: left !important;
+    padding: 5px;
+}
+.skin-blue .main-footer .footer-adminlte .pull-left-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+.skin-blue .main-footer .footer-adminlte .pull-right-custom {
+    float: right !important;
+    padding: 5px;
+}
+.skin-blue .main-footer .footer-adminlte .pull-right-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FORM-BOX CUSTOM                                                                                                    */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue .form-box {
+    background-color: #fff;
+    border: 1px solid #367fa9;
+    border-radius: 4px 4px 4px 4px;
+    margin: 90px auto 0 auto;
+}
+.skin-blue .form-box .body{
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-blue .form-box .footer {
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: black;
+    padding: 10px 20px;
+}
+.skin-blue .form-box .footer .text-footer-login {
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.skin-blue .form-box .header {
+    background-color: #367fa9;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 1px 10px 10px;
+    text-align: center;
+}
+.skin-blue .form-box .header .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skin-blue .form-box .body > .form-group,
+.skin-blue .form-box .footer > .form-group {
+    margin-top: 20px;
+}
+.skin-blue .form-box .body > .form-group > input,
+.skin-blue .form-box .footer > .form-group > input {
+    border: #fff;
+}
+.skin-blue .form-box .body > .btn,
+.skin-blue .form-box .footer > .btn {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* LOGO MENU CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue .main-header .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue .main-header > .navbar .navbar-header {
+    background-color: #367fa9;
+}
+.skin-blue .main-header > .navbar .navbar-nav > li > a {
+    color: lightgray;
+}
+.skin-blue .main-header > .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-BRAND CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue .main-header .navbar .navbar-brand .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-RIGHT CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue .main-header .navbar .navbar-right {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SIDEBAR HEADER CUSTOM                                                                                              */
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue .sidebar > .sidebar-menu > li.header {
+    background: #1a2226;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* TREEVIEW CUSTOM SIDEBAR                                                                                            */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue .treeview-menu > li > a {
+    color: #8aa4af;
+    padding-left: 30px;
+}
+.skin-blue .treeview-menu > li.active > a,
+.skin-blue .treeview-menu > li > a:hover {
+    color: #00c0ef;
+    padding-left: 30px;
+}
+
+/**********************************************************************************************************************/
+/* SKIN-BLUE-LIGHT                                                                                                    */
+/**********************************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* BREADCRUMB CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue-light .breadcrumb {
+    background-color: #fff;
+    border: 1px solid #3c8dbc;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    list-style: none;
+    padding: 4px 15px;
+}
+.skin-blue-light .breadcrumb li a {
+    color: darkgray;
+}
+.skin-blue-light .breadcrumb > .active  {
+    color: #3c8dbc;
+}
+.skin-blue-light .breadcrumb > li + li:before {
+    color: darkgray;
+    content: "/\00a0";
+    padding: 0 5px;
+;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue-light .main-footer{
+    background-color: #3c8dbc;
+    padding: 0;
+}
+.skin-blue-light .main-footer .footer-adminlte {
+    border-top: 1px solid #3c8dbc;
+    color: #fff;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+.skin-blue-light .main-footer .footer-adminlte .a{
+    color: #111111;
+}
+.skin-blue-light .main-footer .footer-adminlte label {
+    padding: 5px;
+}
+.skin-blue-light .main-footer .footer-adminlte .pull-left-custom {
+    float: left !important;
+    padding: 5px;
+}
+.skin-blue-light .main-footer .footer-adminlte .pull-left-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+.skin-blue-light .main-footer .footer-adminlte .pull-right-custom {
+    float: right !important;
+    padding: 5px;
+}
+.skin-blue-light .main-footer .footer-adminlte .pull-right-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FORM-BOX CUSTOM                                                                                                    */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue-light .form-box {
+    background-color: #fff;
+    border: 1px solid #3c8dbc;
+    border-radius: 4px 4px 4px 4px;
+    margin: 90px auto 0 auto;
+}
+.skin-blue-light .form-box .body{
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-blue-light .form-box .footer {
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: black;
+    padding: 10px 20px;
+}
+.skin-blue-light .form-box .footer .text-footer-login {
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.skin-blue-light .form-box .header {
+    background-color: transparent;
+    color: transparent;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 1px 10px 10px;
+    text-align: center;
+}
+.skin-blue-light .form-box .header .panel-title-custom {
+    color: #3c8dbc;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skin-blue-light .form-box .body > .form-group,
+.skin-blue-light .form-box .footer > .form-group {
+    margin-top: 20px;
+}
+.skin-blue-light .form-box .body > .form-group > input,
+.skin-blue-light .form-box .footer > .form-group > input {
+    border: #fff;
+}
+.skin-blue-light .form-box .body > .btn,
+.skin-blue-light .form-box .footer > .btn {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* LOGO MENU CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue-light .main-header .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue-light .main-header > .navbar .navbar-header {
+    background-color: #3c8dbc;
+}
+.skin-blue-light .main-header > .navbar .navbar-nav > li > a {
+    color: lightgray;
+}
+.skin-blue-light .main-header > .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-RIGHT CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue-light .main-header .navbar .navbar-right {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-BRAND CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue-light .main-header .navbar .navbar-brand .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SIDEBAR HEADER CUSTOM                                                                                              */
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue-light .sidebar-menu > li.active > a {
+    border-left-color: #3c8dbc;
+}
+.skin-blue-light .sidebar > .sidebar-menu > li.header {
+    background: #f9fafc;
+    color: #3c8dbc;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* TREEVIEW CUSTOM SIDEBAR                                                                                            */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-blue-light .treeview-menu > li > a {
+    color: #8aa4af;
+    padding-left: 30px;
+}
+.skin-blue-light .treeview-menu > li.active > a,
+.skin-blue-light .treeview-menu > li > a:hover {
+    color: #00c0ef;
+    padding-left: 30px;
+}
+
+/**********************************************************************************************************************/
+/* SKIN-GREEN                                                                                                         */
+/**********************************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* BREADCRUMB CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green .breadcrumb {
+    background-color: #008d4c;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    list-style: none;
+    padding: 4px 15px;
+}
+.skin-green .breadcrumb li a {
+    color: lightgray;
+}
+.skin-green .breadcrumb > .active  {
+    color: #fff;
+}
+.skin-green .breadcrumb > li + li:before {
+    color: lightgray;
+    content: "/\00a0";
+    padding: 0 5px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green .main-footer{
+    background-color: #00a65a;
+    padding: 0;
+}
+.skin-green .main-footer .footer-adminlte {
+    border-top: 1px solid #008d4c;
+    color: #fff;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+
+}
+.skin-green .main-footer .footer-adminlte .a{
+    color: #111111;
+}
+.skin-green .main-footer .footer-adminlte label {
+    padding: 5px;
+}
+.skin-green .main-footer .footer-adminlte .pull-left-custom {
+    float: left !important;
+    padding: 5px;
+}
+.skin-green .main-footer .footer-adminlte .pull-left-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+.skin-green .main-footer .footer-adminlte .pull-right-custom {
+    float: right !important;
+    padding: 5px;
+}
+.skin-green .main-footer .footer-adminlte .pull-right-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* PAGE FORM LOGIN CUSTOM                                                                                             */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green .form-box {
+    background-color: #fff;
+    border: 1px solid #008d4c;
+    border-radius: 4px 4px 4px 4px;
+    margin: 90px auto 0 auto;
+}
+.skin-green .form-box .body{
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-green .form-box .footer {
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-green .form-box .footer .text-footer-login {
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.skin-green .form-box .header {
+    background-color: #008d4c;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 1px 10px 10px;
+    text-align: center;
+}
+.skin-green .form-box .header .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skin-green .form-box .body > .form-group,
+.skin-green .form-box .footer > .form-group {
+    margin-top: 20px;
+}
+.skin-green .form-box .body > .form-group > input,
+.skin-green .form-box .footer > .form-group > input {
+    border: #fff;
+}
+.skin-green .form-box .body > .btn,
+.skin-green .form-box .footer > .btn {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* LOGO MENU CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green .main-header .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green .main-header > .navbar .navbar-header {
+    background-color: #008d4c;
+}
+.skin-green .main-header > .navbar .navbar-nav > li > a {
+    color: lightgray;
+}
+.skin-green .main-header > .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-BRAND CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green .main-header .navbar .navbar-brand .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-RIGHT CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green .main-header .navbar .navbar-right {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SIDEBAR HEADER CUSTOM                                                                                              */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green .sidebar > .sidebar-menu > li.header {
+    background: #1a2226;
+    color: #ffffff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* TREEVIEW CUSTOM SIDEBAR                                                                                            */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green .treeview-menu > li > a {
+    color: #8aa4af;
+    padding-left: 30px;
+}
+.skin-green .treeview-menu > li.active > a,
+.skin-green .treeview-menu > li > a:hover {
+    color: #00a65a;
+    padding-left: 30px;
+}
+
+/**********************************************************************************************************************/
+/* SKIN-GREEN-LIGHT                                                                                                    */
+/**********************************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* BREADCRUMB CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green-light .breadcrumb {
+    background-color: #fff;
+    border: 1px solid #00a65a;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    list-style: none;
+    padding: 4px 15px;
+}
+.skin-green-light .breadcrumb li a {
+    color: darkgray;
+}
+.skin-green-light .breadcrumb > .active  {
+    color: #00a65a;
+}
+.skin-green-light .breadcrumb > li + li:before {
+    color: darkgray;
+    content: "/\00a0";
+    padding: 0 5px;
+;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green-light .main-footer{
+    background-color: #00a65a;
+    padding: 0;
+}
+.skin-green-light .main-footer .footer-adminlte {
+    border-top: 1px solid #00a65a;
+    color: #fff;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+.skin-green-light .main-footer .footer-adminlte .a{
+    color: #111111;
+}
+.skin-green-light .main-footer .footer-adminlte label {
+    padding: 5px;
+}
+.skin-green-light .main-footer .footer-adminlte .pull-left-custom {
+    float: left !important;
+    padding: 5px;
+}
+.skin-green-light .main-footer .footer-adminlte .pull-left-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+.skin-green-light .main-footer .footer-adminlte .pull-right-custom {
+    float: right !important;
+    padding: 5px;
+}
+.skin-green-light .main-footer .footer-adminlte .pull-right-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FORM-BOX CUSTOM                                                                                                    */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green-light .form-box {
+    background-color: #fff;
+    border: 1px solid #00a65a;
+    border-radius: 4px 4px 4px 4px;
+    margin: 90px auto 0 auto;
+}
+.skin-green-light .form-box .body{
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-green-light .form-box .footer {
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: black;
+    padding: 10px 20px;
+}
+.skin-green-light .form-box .footer .text-footer-login {
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.skin-green-light .form-box .header {
+    background-color: transparent;
+    color: transparent;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 1px 10px 10px;
+    text-align: center;
+}
+.skin-green-light .form-box .header .panel-title-custom {
+    color: #00a65a;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skin-green-light .form-box .body > .form-group,
+.skin-green-light .form-box .footer > .form-group {
+    margin-top: 20px;
+}
+.skin-green-light .form-box .body > .form-group > input,
+.skin-green-light .form-box .footer > .form-group > input {
+    border: #fff;
+}
+.skin-green-light .form-box .body > .btn,
+.skin-green-light .form-box .footer > .btn {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* LOGO MENU CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green-light .main-header .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green-light .main-header > .navbar .navbar-header {
+    background-color: #00a65a;
+}
+.skin-green-light .main-header > .navbar .navbar-nav > li > a {
+    color: lightgray;
+}
+.skin-green-light .main-header > .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-BRAND CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green-light .main-header .navbar .navbar-brand .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-RIGHT CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green-light .main-header .navbar .navbar-right {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SIDEBAR HEADER CUSTOM                                                                                              */
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green-light .sidebar-menu > li.active > a {
+    border-left-color: #00a65a;
+}
+.skin-green-light .sidebar > .sidebar-menu > li.header {
+    background: #f9fafc;
+    color: #00a65a;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* TREEVIEW CUSTOM SIDEBAR                                                                                            */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-green-light .treeview-menu > li > a {
+    color: #8aa4af;
+    padding-left: 30px;
+}
+.skin-green-light .treeview-menu > li.active > a,
+.skin-green-light .treeview-menu > li > a:hover {
+    color: #00c0ef;
+    padding-left: 30px;
+}
+
+/**********************************************************************************************************************/
+/* SKIN-PURPLE                                                                                                        */
+/**********************************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* BREADCRUMB CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple .breadcrumb {
+    background-color: #555299;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    list-style: none;
+    padding: 4px 15px;
+}
+.skin-purple .breadcrumb li a {
+    color: lightgray;
+}
+.skin-purple .breadcrumb > .active  {
+    color: #fff;
+}
+.skin-purple .breadcrumb > li + li:before {
+    color: lightgray;
+    content: "/\00a0";
+    padding: 0 5px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple .main-footer{
+    background-color: #605ca8;
+    padding: 0;
+}
+.skin-purple .main-footer .footer-adminlte {
+    border-top: 1px solid #555299;
+    color: #fff;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+.skin-purple .main-footer .footer-adminlte .a{
+    color: #111111;
+}
+.skin-purple .main-footer .footer-adminlte label {
+    padding: 5px;
+}
+.skin-purple .main-footer .footer-adminlte .pull-left-custom {
+    float: left !important;
+    padding: 5px;
+}
+.skin-purple .main-footer .footer-adminlte .pull-left-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+.skin-purple .main-footer .footer-adminlte .pull-right-custom {
+    float: right !important;
+    padding: 5px;
+}
+.skin-purple .main-footer .footer-adminlte .pull-right-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FORM LOGIN CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple .form-box {
+    background-color: #fff;
+    border: 1px solid #555299;
+    border-radius: 4px 4px 4px 4px;
+    margin: 90px auto 0 auto;
+}
+.skin-purple .form-box .body{
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-purple .form-box .footer {
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-purple .form-box .footer .text-footer-login {
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.skin-purple .form-box .header {
+    background-color: #555299;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 1px 10px 10px;
+    text-align: center;
+}
+.skin-purple .form-box .header .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skin-purple .form-box .body > .form-group,
+.skin-purple .form-box .footer > .form-group {
+    margin-top: 20px;
+}
+.skin-purple .form-box .body > .form-group > input,
+.skin-purple .form-box .footer > .form-group > input {
+    border: #fff;
+}
+.skin-purple .form-box .body > .btn,
+.skin-purple .form-box .footer > .btn {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* LOGO MENU CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple .main-header .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple .main-header > .navbar .navbar-header {
+    background-color: #555299;
+}
+.skin-purple .main-header > .navbar .navbar-nav > li > a {
+    color: lightgray;
+}
+.skin-purple .main-header > .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-BRAND CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple .main-header .navbar .navbar-brand .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-RIGHT CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple .main-header .navbar .navbar-right {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SIDEBAR HEADER CUSTOM                                                                                              */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple .sidebar > .sidebar-menu > li.header {
+    background: #1a2226;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* TREEVIEW CUSTOM SIDEBAR                                                                                            */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple .treeview-menu > li > a {
+    color: #8aa4af;
+    padding-left: 30px;
+}
+.skin-purple .treeview-menu > li.active > a,
+.skin-purple .treeview-menu > li > a:hover {
+    color: #7d7da8;
+    padding-left: 30px;
+}
+
+/**********************************************************************************************************************/
+/* SKIN-PURPLE-LIGHT                                                                                                    */
+/**********************************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* BREADCRUMB CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple-light .breadcrumb {
+    background-color: #fff;
+    border: 1px solid #605ca8;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    list-style: none;
+    padding: 4px 15px;
+}
+.skin-purple-light .breadcrumb li a {
+    color: darkgray;
+}
+.skin-purple-light .breadcrumb > .active  {
+    color: #605ca8;
+}
+.skin-purple-light .breadcrumb > li + li:before {
+    color: darkgray;
+    content: "/\00a0";
+    padding: 0 5px;
+;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple-light .main-footer{
+    background-color: #605ca8;
+    padding: 0;
+}
+.skin-purple-light .main-footer .footer-adminlte {
+    border-top: 1px solid #605ca8;
+    color: #fff;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+.skin-purple-light .main-footer .footer-adminlte .a{
+    color: #111111;
+}
+.skin-purple-light .main-footer .footer-adminlte label {
+    padding: 5px;
+}
+.skin-purple-light .main-footer .footer-adminlte .pull-left-custom {
+    float: left !important;
+    padding: 5px;
+}
+.skin-purple-light .main-footer .footer-adminlte .pull-left-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+.skin-purple-light .main-footer .footer-adminlte .pull-right-custom {
+    float: right !important;
+    padding: 5px;
+}
+.skin-purple-light .main-footer .footer-adminlte .pull-right-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FORM-BOX CUSTOM                                                                                                    */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple-light .form-box {
+    background-color: #fff;
+    border: 1px solid #605ca8;
+    border-radius: 4px 4px 4px 4px;
+    margin: 90px auto 0 auto;
+}
+.skin-purple-light .form-box .body{
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-purple-light .form-box .footer {
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: black;
+    padding: 10px 20px;
+}
+.skin-purple-light .form-box .footer .text-footer-login {
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.skin-purple-light .form-box .header {
+    background-color: transparent;
+    color: transparent;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 1px 10px 10px;
+    text-align: center;
+}
+.skin-purple-light .form-box .header .panel-title-custom {
+    color: #605ca8;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skin-purple-light .form-box .body > .form-group,
+.skin-purple-light .form-box .footer > .form-group {
+    margin-top: 20px;
+}
+.skin-purple-light .form-box .body > .form-group > input,
+.skin-purple-light .form-box .footer > .form-group > input {
+    border: #fff;
+}
+.skin-purple-light.form-box .body > .btn,
+.skin-purple-light .form-box .footer > .btn {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* LOGO MENU CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple-light .main-header .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple-light .main-header > .navbar .navbar-header {
+    background-color: #605ca8;
+}
+.skin-purple-light .main-header > .navbar .navbar-nav > li > a {
+    color: lightgray;
+}
+.skin-purple-light .main-header > .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-RIGHT CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple-light .main-header .navbar .navbar-right {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-BRAND CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple-light .main-header .navbar .navbar-brand .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SIDEBAR HEADER CUSTOM                                                                                              */
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple-light .sidebar-menu > li.active > a {
+    border-left-color: #605ca8;
+}
+.skin-purple-light .sidebar > .sidebar-menu > li.header {
+    background: #f9fafc;
+    color: #605ca8;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* TREEVIEW CUSTOM SIDEBAR                                                                                            */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-purple-light .treeview-menu > li > a {
+    color: #8aa4af;
+    padding-left: 30px;
+}
+.skin-purple-light .treeview-menu > li.active > a,
+.skin-purple-light .treeview-menu > li > a:hover {
+    color: #00c0ef;
+    padding-left: 30px;
+}
+
+
+/**********************************************************************************************************************/
+/* SKIN-RED                                                                                                           */
+/**********************************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* BREADCRUMB CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red .breadcrumb {
+    background-color: #d73925;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    list-style: none;
+    padding: 4px 15px;
+}
+.skin-red .breadcrumb li a {
+    color: lightgray;
+}
+.skin-red .breadcrumb > .active  {
+    color: #fff;
+}
+.skin-red .breadcrumb > li + li:before {
+    color: lightgray;
+    content: "/\00a0";
+    padding: 0 5px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red .main-footer{
+    background-color: #dd4b39;
+    padding: 0;
+}
+.skin-red .main-footer .footer-adminlte {
+    border-top: 1px solid #d73925;
+    color: #fff;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+.skin-red .main-footer .footer-adminlte .a{
+    color: #111111;
+}
+.skin-red .main-footer .footer-adminlte label {
+    padding: 5px;
+}
+.skin-red .main-footer .footer-adminlte .pull-left-custom {
+    float: left !important;
+    padding: 5px;
+}
+.skin-red .main-footer .footer-adminlte .pull-left-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+.skin-red .main-footer .footer-adminlte .pull-right-custom {
+    float: right !important;
+    padding: 5px;
+}
+.skin-red .main-footer .footer-adminlte .pull-right-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FORM LOGIN CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red .form-box {
+    background-color: #fff;
+    border: 1px solid #d73925;
+    border-radius: 4px 4px 4px 4px;
+    margin: 90px auto 0 auto;
+}
+.skin-red .form-box .body{
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-red .form-box .footer {
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-red .form-box .footer .text-footer-login {
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.skin-red .form-box .header {
+    background-color: #d73925;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 1px 10px 10px;
+    text-align: center;
+}
+.skin-red .form-box .header .panel-title-custom {
+    color: fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skin-red .form-box .body > .form-group,
+.skin-red .form-box .footer > .form-group {
+    margin-top: 20px;
+}
+.skin-red .form-box .body > .form-group > input,
+.skin-red .form-box .footer > .form-group > input {
+    border: #fff;
+}
+.skin-red .form-box .body > .btn,
+.skin-red .form-box .footer > .btn {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* LOGO MENU CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red .main-header .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red .main-header > .navbar .navbar-header {
+    background-color: #d73925;
+}
+.skin-red .main-header > .navbar .navbar-nav > li > a {
+    color: lightgray;
+}
+.skin-red .main-header > .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-BRAND CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red .main-header .navbar .navbar-brand .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-RIGHT CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red .main-header .navbar .navbar-right {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SIDEBAR HEADER CUSTOM                                                                                              */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red .sidebar > .sidebar-menu > li.header {
+    background: #1a2226;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* TREEVIEW CUSTOM SIDEBAR                                                                                            */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red .treeview-menu > li > a {
+    color: #8aa4af;
+    padding-left: 30px;
+}
+.skin-red .treeview-menu > li.active > a,
+.skin-red .treeview-menu > li > a:hover {
+    color: #dd4b39;
+    padding-left: 30px;
+}
+
+/**********************************************************************************************************************/
+/* SKIN-RED-LIGHT                                                                                                    */
+/**********************************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* BREADCRUMB CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red-light .breadcrumb {
+    background-color: #fff;
+    border: 1px solid #dd4b39;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    list-style: none;
+    padding: 4px 15px;
+}
+.skin-red-light .breadcrumb li a {
+    color: darkgray;
+}
+.skin-red-light .breadcrumb > .active  {
+    color: #dd4b39;
+}
+.skin-red-light .breadcrumb > li + li:before {
+    color: darkgray;
+    content: "/\00a0";
+    padding: 0 5px;
+;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red-light .main-footer{
+    background-color: #dd4b39;
+    padding: 0;
+}
+.skin-red-light .main-footer .footer-adminlte {
+    border-top: 1px solid #ddd;
+    color: #fff;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+.skin-red-light .main-footer .footer-adminlte .a{
+    color: #111111;
+}
+.skin-red-light .main-footer .footer-adminlte label {
+    padding: 5px;
+}
+.skin-red-light .main-footer .footer-adminlte .pull-left-custom {
+    float: left !important;
+    padding: 5px;
+}
+.skin-red-light .main-footer .footer-adminlte .pull-left-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+.skin-red-light .main-footer .footer-adminlte .pull-right-custom {
+    float: right !important;
+    padding: 5px;
+}
+.skin-red-light .main-footer .footer-adminlte .pull-right-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FORM-BOX CUSTOM                                                                                                    */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red-light .form-box {
+    background-color: #fff;
+    border: 1px solid #dd4b39;
+    border-radius: 4px 4px 4px 4px;
+    margin: 90px auto 0 auto;
+}
+.skin-red-light .form-box .body{
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-red-light .form-box .footer {
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: black;
+    padding: 10px 20px;
+}
+.skin-red-light .form-box .footer .text-footer-login {
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.skin-red-light .form-box .header {
+    background-color: transparent;
+    color: transparent;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 1px 10px 10px;
+    text-align: center;
+}
+.skin-red-light .form-box .header .panel-title-custom {
+    color: #dd4b39;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skin-red-light .form-box .body > .form-group,
+.skin-red-light .form-box .footer > .form-group {
+    margin-top: 20px;
+}
+.skin-red-light .form-box .body > .form-group > input,
+.skin-red-light .form-box .footer > .form-group > input {
+    border: #fff;
+}
+.skin-red-light .form-box .body > .btn,
+.skin-red-light .form-box .footer > .btn {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* LOGO MENU CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red-light .main-header .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red-light .main-header > .navbar .navbar-header {
+    background-color: #dd4b39;
+}
+.skin-red-light .main-header > .navbar .navbar-nav > li > a {
+    color: lightgray;
+}
+.skin-red-light .main-header > .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-BRAND CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red-light .main-header .navbar .navbar-brand .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-RIGHT CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red-light .main-header .navbar .navbar-right {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SIDEBAR HEADER CUSTOM                                                                                              */
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red-light .sidebar-menu > li.active > a {
+    border-left-color: #dd4b39;
+}
+.skin-red-light .sidebar > .sidebar-menu > li.header {
+    background: #f9fafc;
+    color: #dd4b39;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* TREEVIEW CUSTOM SIDEBAR                                                                                            */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-red-light .treeview-menu > li > a {
+    color: #8aa4af;
+    padding-left: 30px;
+}
+.skin-red-light .treeview-menu > li.active > a,
+.skin-red-light .treeview-menu > li > a:hover {
+    color: #00c0ef;
+    padding-left: 30px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SKIN-YELLOW                                                                                                        */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* BREADCRUMB CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow .breadcrumb {
+    background-color: #e08e0b;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    list-style: none;
+    padding: 4px 15px;
+}
+.skin-yellow .breadcrumb li a {
+    color: lightgray;
+}
+.skin-yellow .breadcrumb > .active  {
+    color: #fff;
+}
+.skin-yellow .breadcrumb > li + li:before {
+    color: lightgray;
+    content: "/\00a0";
+    padding: 0 5px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow .main-footer{
+    background-color: #f39c12;
+    padding: 0;
+}
+.skin-yellow .main-footer .footer-adminlte {
+    border-top: 1px solid #e08e0b;
+    color: #fff;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+.skin-yellow .main-footer .footer-adminlte .a{
+    color: #111111;
+}
+.skin-yellow .main-footer .footer-adminlte label {
+    padding: 5px;
+}
+.skin-yellow .main-footer .footer-adminlte .pull-left-custom {
+    float: left !important;
+    padding: 5px;
+}
+.skin-yellow .main-footer .footer-adminlte .pull-left-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+.skin-yellow .main-footer .footer-adminlte .pull-right-custom {
+    float: right !important;
+    padding: 5px;
+}
+.skin-yellow .main-footer .footer-adminlte .pull-right-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FORM LOGIN CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow .form-box {
+    background-color: #fff;
+    border: 1px solid #e08e0b;
+    border-radius: 4px 4px 4px 4px;
+    margin: 90px auto 0 auto;
+}
+.skin-yellow .form-box .body{
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-yellow .form-box .footer {
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-yellow .form-box .footer .text-footer-login {
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.skin-yellow .form-box .header {
+    background-color: #e08e0b;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 1px 10px 10px;
+    text-align: center;
+}
+.skin-yellow .form-box .header .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skin-yellow .form-box .body > .form-group,
+.skin-yellow .form-box .footer > .form-group {
+    margin-top: 20px;
+}
+.skin-yellow .form-box .body > .form-group > input,
+.skin-yellow .form-box .footer > .form-group > input {
+    border: #fff;
+}
+.skin-yellow .form-box .body > .btn,
+.skin-yellow .form-box .footer > .btn {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* LOGO MENU CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow .main-header .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow .main-header > .navbar .navbar-header {
+    background-color: #e08e0b;
+}
+.skin-yellow .main-header > .navbar .navbar-nav > li > a {
+    color: lightgray;
+}
+.skin-yellow .main-header > .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-BRAND CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow .main-header .navbar .navbar-brand .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-RIGHT CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow .main-header .navbar .navbar-right {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SIDEBAR HEADER CUSTOM                                                                                              */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow .sidebar > .sidebar-menu > li.header {
+    background: #1a2226;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* TREEVIEW CUSTOM SIDEBAR                                                                                            */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow .treeview-menu > li > a {
+    color: #8aa4af;
+    padding-left: 30px;
+}
+.skin-yellow .treeview-menu > li.active > a,
+.skin-yellow .treeview-menu > li > a:hover {
+    color: #f39c12;
+    padding-left: 30px;
+}
+
+/**********************************************************************************************************************/
+/* SKIN-YELLOW-LIGHT                                                                                                    */
+/**********************************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* BREADCRUMB CUSTOM                                                                                                  */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow-light .breadcrumb {
+    background-color: #fff;
+    border: 1px solid #f39c12;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    list-style: none;
+    padding: 4px 15px;
+}
+.skin-yellow-light .breadcrumb li a {
+    color: darkgray;
+}
+.skin-yellow-light .breadcrumb > .active  {
+    color: #f39c12;
+}
+.skin-yellow-light .breadcrumb > li + li:before {
+    color: darkgray;
+    content: "/\00a0";
+    padding: 0 5px;
+;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow-light .main-footer{
+    background-color: #f39c12;
+    padding: 0;
+}
+.skin-yellow-light .main-footer .footer-adminlte {
+    border-top: 1px solid #f39c12;
+    color: #fff;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+.skin-yellow-light .main-footer .footer-adminlte .a{
+    color: #111111;
+}
+.skin-yellow-light .main-footer .footer-adminlte label {
+    padding: 5px;
+}
+.skin-yellow-light .main-footer .footer-adminlte .pull-left-custom {
+    float: left !important;
+    padding: 5px;
+}
+.skin-yellow-light .main-footer .footer-adminlte .pull-left-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+.skin-yellow-light .main-footer .footer-adminlte .pull-right-custom {
+    float: right !important;
+    padding: 5px;
+}
+.skin-yellow-light .main-footer .footer-adminlte .pull-right-custom .iconos{
+    color: #111111;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* FORM-BOX CUSTOM                                                                                                    */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow-light .form-box {
+    background-color: #fff;
+    border: 1px solid #f39c12;
+    border-radius: 4px 4px 4px 4px;
+    margin: 90px auto 0 auto;
+}
+.skin-yellow-light .form-box .body{
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: #111111;
+    padding: 10px 20px;
+}
+.skin-yellow-light .form-box .footer {
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    color: black;
+    padding: 10px 20px;
+}
+.skin-yellow-light .form-box .footer .text-footer-login {
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+.skin-yellow-light .form-box .header {
+    background-color: transparent;
+    color: transparent;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 1px 10px 10px;
+    text-align: center;
+}
+.skin-yellow-light .form-box .header .panel-title-custom {
+    color: #f39c12;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skin-yellow-light .form-box .body > .form-group,
+.skin-yellow-light .form-box .footer > .form-group {
+    margin-top: 20px;
+}
+.skin-yellow-light .form-box .body > .form-group > input,
+.skin-yellow-light .form-box .footer > .form-group > input {
+    border: #fff;
+}
+.skin-yellow-light .form-box .body > .btn,
+.skin-yellow-light .form-box .footer > .btn {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* LOGO MENU CUSTOM                                                                                                   */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow-light .main-header .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM                                                                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow-light .main-header > .navbar .navbar-header {
+    background-color: #f39c12;
+}
+.skin-yellow-light .main-header > .navbar .navbar-nav > li > a {
+    color: lightgray;
+}
+.skin-yellow-light .main-header > .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-BRAND CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow-light .main-header .navbar .navbar-brand .panel-title-custom {
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAVBAR CUSTOM - NAVBAR-RIGHT CUSTOM                                                                                */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow-light .main-header .navbar .navbar-right {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* SIDEBAR HEADER CUSTOM                                                                                              */
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow-light .sidebar-menu > li.active > a {
+    border-left-color: #f39c12;
+}
+.skin-yellow-light .sidebar > .sidebar-menu > li.header {
+    background: #f9fafc;
+    color: #f39c12;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* TREEVIEW CUSTOM SIDEBAR                                                                                            */
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.skin-yellow-light .treeview-menu > li > a {
+    color: #8aa4af;
+    padding-left: 30px;
+}
+.skin-yellow-light .treeview-menu > li.active > a,
+.skin-yellow-light .treeview-menu > li > a:hover {
+    color: #00c0ef;
+    padding-left: 30px;
+}
+
