@@ -28,6 +28,6 @@ class AdminLteHelper
 
     public static function powered()
     {
-        return html::label('Powered by ') . Html::a(' Yii Framework', 'http://www.yiiframework.com/', ['class' => 'a', 'target' => '_blank', 'rel' => 'external']);
+        return html::label('Powered by ', $for = null, $options = ['class' => 'hidden-xs']) . html::img(\yii::$app->params['Logo-Yii'], $options = ['class' => 'img-rounded hidden-xs']) . '  ' . Html::a(' Yii Framework', 'http://www.yiiframework.com/', ['class' => 'hidden-xs a', 'target' => '_blank', 'rel' => 'external']);
     }
 }
