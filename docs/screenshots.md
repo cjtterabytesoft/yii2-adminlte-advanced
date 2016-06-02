@@ -1,12 +1,13 @@
-[Theme - Skins] - with Yii2 AdminLTE - Advanced App Template .
-==============================================================
+Yii2 AdminLTE - Advanced App Template.
+======================================
 
-#### 1.- [Skin-Black]:
+<p style= "text-align:center">[Theme - All Skins Desktop].</p>
+-----------------------------------------------------------------
 
-#####Desktop:
+[1. - Screenshots Theme - [Skin-Black]](screenshots-skin-black-desktop.md)
+[2. - Screenshots Theme - [Skin-Black]](screenshots-skin-black-light-desktop.md)
 
-![Home Page Skin-Black](docs/images/skin-black/black-main.png)
+<p style= "text-align:center">[Theme - All Skins Mobile].</p>
+-----------------------------------------------------------------
 
-#####Mobile:
-
-![Home Page Skin-Black](docs/images/skin-black/black-main-mobile.png)
+[1. - Screenshots Theme - [Skin-Black]](screenshots-skin-black-mobile.md)
