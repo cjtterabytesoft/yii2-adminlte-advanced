@@ -1,5 +1,5 @@
-Getting started with Yii2 AdminLTE - Advanced App Template .
-============================================================
+Getting started with Yii2 AdminLTE - Advanced App Template.
+===========================================================
 
 #### 1.- Installation:
 

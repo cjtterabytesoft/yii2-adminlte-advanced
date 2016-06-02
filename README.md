@@ -4,8 +4,8 @@
 Yii2 AdminLTE - Advanced App Template.
 ======================================
 
-Installation
-------------
+Installation:
+-------------
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
