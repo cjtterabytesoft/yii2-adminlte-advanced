@@ -1,12 +1,12 @@
 Yii2 AdminLTE - Advanced App Template.
 ======================================
 
-<p style= "text-align:center">[Theme - Skin-Black - Mobile].</p>
+<p align= "center">[Theme - Skin-Black - Mobile].</p>
 ----------------------------------------------------------------
 
 #### [Layout - Main]:
 
-<p align= "center">![Home Page Skin-Black-Main-Mobile](images/skin-black/black-main-mobile.png)
+<p align= "center">![Home Page Skin-Black-Main-Mobile](images/skin-black/black-main-mobile.png)</p>
 
 #### [Layout - About Us]:
 

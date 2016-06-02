@@ -1,7 +1,7 @@
 Yii2 AdminLTE - Advanced App Template.
 ======================================
 
-<p style= "text-align:center">[Theme - Skin-Black - Desktop].</p>
+<p align= "center">[Theme - Skin-Black - Desktop].
 -----------------------------------------------------------------
 
 #### [Layout - Main]:
@@ -30,8 +30,8 @@ Yii2 AdminLTE - Advanced App Template.
 
 #### [Layout - Panel Admin Close]:
 
-<p align = "center">![Home Page Skin-Black-Panel_Admin-Close](images/skin-black/black-panel_admin-close.png)
+![Home Page Skin-Black-Panel_Admin-Close](images/skin-black/black-panel_admin-close.png)
 
 #### [Layout - Panel Admin Open]:
 
-<p align = "center">![Home Page Skin-Black-Panel_Admin-Open](images/skin-black/black-panel_admin-open.png)
+![Home Page Skin-Black-Panel_Admin-Open](images/skin-black/black-panel_admin-open.png)
