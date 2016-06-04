@@ -22,7 +22,7 @@ $menuUser[] = ['label' => html::tag('i', '',['class' => 'glyphicon glyphicon-use
     'options'=> ['class'=>'dropdown user user-menu'],
     'items' => [
         Html::tag('li',
-            Html::img(\yii::$app->params['Images_Url_60'], $options = ['class' => 'img-rounded'], ['aria-expanded' => 'false']) .
+            Html::img(\yii::$app->params['Images_Url_60'], $options = ['class' => 'img-rounded', 'aria-expanded' => 'false']) .
             Html::tag('p',
                 \yii::$app->user->identity->username .
                 Html::tag('small', '&nbsp' . Yii::t('adminlte', 'Member Since:') . '&nbsp' . Yii::t('adminlte', '{0, date, MMMM dd, YYYY HH:mm}', \yii::$app->user->identity->created_at))
