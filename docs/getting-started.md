@@ -140,3 +140,79 @@ Getting started with Yii2 AdminLTE - Advanced App Template.
         'WebName'               => 'My Application',                                                         // Your Application Name //
     ];
 ```
+
+#### 3.- Overriding views:
+
+#####Configure [backend - config/main.php]:
+
+```php
+        // Configuration Theme - Overriding views - [Backend - Menu Sidebar - Custom] //
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@cjtterabytesoft/adminlte/advanced/views/backend/layouts' => '@app/views/menu_custom'
+                ],
+            ],
+        ],
+```
+
+#####Configure [frontend - config/main.php]:
+
+```php
+        // Configuration Theme - Overriding views - [Frontend - Menu Sidebar - Custom] //
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@cjtterabytesoft/adminlte/advanced/views/frontend/layouts' => '@app/views/menu_custom'
+                ],
+            ],
+        ],
+```
+
+#####View Custom [_sidebar.php]:
+
+```php
+<?php
+
+/*
+ * This file is part of the Cjt Terabyte LLC [yii2-extension].
+ *
+ * (c) Cjt Terabyte LLC [yii2-extension] <http://github.com/cjtterabytesoft>.
+ * For the full copyright and license information, please view the LICENSE.md.
+ * file that was distributed with this source code.
+ *
+ * @link http://www.cjtterabyte.com.
+ * @author Wilmer Arámbula <cjtterabytellc@gmail.com>.
+ * @copyright (c) 2015 Cjt Terabyte LLC.
+ * @Intradvanced: Custom Menu[_sidebar].
+ * @since 1.0
+ */
+
+use yii\helpers\Html;
+use cjtterabytesoft\adminlte\advanced\widgets\MainSidebar;
+
+$sidebar_menu[0] = ['label' => Yii::t('adminlte', 'Panel de Control'), 'options' => ['class' => 'header'], 'template' => '{label}'];
+$sidebar_menu[1] = ['label' => Yii::t('adminlte', 'Home'), 'icon' => Html::tag('i', '', ['class' => 'fa ion-ios-home fa-lg']), 'url' => ['/site/index']];
+$sidebar_menu[2] = ['label' => Yii::t('app', 'Level 1'), 'icon' => '<i class="fa fa-cogs"></i>', 'options' =>
+                       ['class' => 'treeview'], 'items' => [
+                           ['label' => Yii::t('app', 'Level 1.1'), 'icon' => '<i class="fa fa-circle"></i>', 'options' =>
+                               ['class' => 'treeview'], 'items' => [
+                                   ['icon' => '<i class="fa fa-circle-o"></i>', 'label' => Yii::t('app', 'Level 1.1.1'), 'url' => '#'],
+                               ],
+                           ],
+                           ['icon' => '<i class="fa fa-circle"></i>', 'label' => Yii::t('app', 'Level 1.2'), 'url' => '#'],
+                           ['icon' => '<i class="fa fa-circle"></i>', 'label' => Yii::t('app', 'Level 1.3'), 'url' => '#'],
+                       ]
+                    ];
+$sidebar_menu[3] = ['label' => Yii::t('adminlte', 'Logout'), 'icon' => Html::tag('i', '', ['class' => 'fa fa-sign-out fa-lg']), 
+                       'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']];
+
+echo MainSidebar::widget([
+    'options'         => ['class' => 'sidebar-menu'],
+    'labelTemplate'   => '<a href="#">{icon}<span>{label}</span>{right-icon}{badge}</a>',
+    'linkTemplate'    => '<a href="{url}" {linkOptions}>{icon}<span>{label}</span>{right-icon}{badge}</a>',
+    'submenuTemplate' => "\n<ul class=\"treeview-menu\">\n{items}\n</ul>\n",
+    'activateParents' => true,
+    'items'           => $sidebar_menu,
+]);
+```
