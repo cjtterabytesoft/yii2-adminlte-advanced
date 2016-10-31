@@ -75,7 +75,7 @@ class MainSidebar extends Menu
     /**
      * @var string
      */
-    public $parentRightIcon = '<i class="fa fa-angle-left pull-right"></i>';
+    public $parentRightIcon = '<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>';
     /**
      * @inheritdoc
      */
